@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: rgb(98, 194, 231);
+    font-family: '0pen Sans', sans-serif;
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+margin: 0;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 20px;
+    width: 500px;
+
+    
+}
+
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.the{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.button {
+    border-radius: 5px;
+}
